@@ -1,0 +1,24 @@
+{
+  "name": "torgils-thorstein",
+  "version": "0.0.1",
+  "description": "RESTful API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://red-puppet@github.com/red-puppet/torgils-thorstein.git"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "demo"
+  ],
+  "author": "Red-Puppet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/red-puppet/torgils-thorstein/issues"
+  },
+  "homepage": "https://github.com/red-puppet/torgils-thorstein#readme"
+}
