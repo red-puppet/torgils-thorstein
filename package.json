@@ -4,6 +4,7 @@
   "description": "RESTful API",
   "main": "server.js",
   "scripts": {
+    "rebuild": "echo \"Rebuilding project...\"; rm -fr node_modules; npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,19 @@
   "bugs": {
     "url": "https://github.com/red-puppet/torgils-thorstein/issues"
   },
-  "homepage": "https://github.com/red-puppet/torgils-thorstein#readme"
+  "homepage": "https://github.com/red-puppet/torgils-thorstein#readme",
+  "devDependencies": {
+    "bash-color": "0.0.4",
+    "eslint": "^3.19.0",
+    "jacin": "0.0.21",
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "frisby": "^0.8.5",
+    "fs": "0.0.1-security",
+    "istanbul": "^0.4.5",
+    "md5": "^2.2.1",
+    "restify": "^4.3.0",
+    "sha1": "^1.1.1"
+  }
 }
